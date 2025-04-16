@@ -1,0 +1,128 @@
+body {
+    padding: 20px;
+    padding-bottom: 500px;
+  }
+  
+  p {
+    color: green;
+    font-size: 30px;
+  }
+  
+  /* Classes e Ids*/
+  .meu-paragrafo{
+      background-color: black;
+      color: red;
+  }
+  
+  #titulo-principal{
+      background-color: yellow;
+      color: black;
+      padding: 10px;
+      font-family: Helvetica;
+  }
+  
+  /*Todos os elementos, listas/*
+  * {
+      font-family:arial ;
+  }
+  
+  p, h1 {
+      border-bottom: 1px solid red;
+  }
+  
+  /* CORES */
+  .nome-da-cor{
+      color: pink;
+  }
+  
+  .hexa{
+      color: #324597;
+      background-color: #333333;
+  }
+  
+  .rgb {
+      color: rgb(100, 95,44);
+  }
+  
+  
+  /* fontes */
+  .serifada{
+      font-family: Georgia;
+  }
+  
+  .sem-serifa{
+    font-family: Helvetica;  
+  }
+  
+  .mono-espacada{
+      font-family: 'courier New';
+  }
+  
+  /* size e height */
+  .tamanho-fonte-grande{
+      font-size: 64px;
+  }
+  
+  .tamanho-fonte-pequena{
+      font-size: 12px;
+  }
+  
+  .peso-fonte {
+      font-weight: 700;
+      font-style: italic;
+  }
+  
+  /* box model */
+  .box-model{
+      width: 200px;
+      height:100px;
+      border: 1px solid blue;
+      padding: 20px 10px 5px;
+      margin: 20px;
+  }
+  
+  .alinhamento{
+      text-align:center;
+  }
+  
+  .letras-maiusculas{
+     text-transform: lowercase; 
+  }
+  
+  .letras-minusculas{
+      text-transform: uppercase;
+  }
+  
+  /* espaçamento de linhas e texto */
+  .espacamento-texto{
+      width: 150px;
+      line-height: 40px;
+      letter-spacing: 8px;
+  }
+ 
+  
+  /* links */
+  .decoration{
+      text-decoration: none;
+  }
+  
+  .visitado:visited{
+      color: orange;
+  }
+  
+  .estilo-hover:hover{
+      background-color: #1292ae;
+  }
+
+  .elemento-fixo{
+    position: fixed;
+    left:0%;
+    top:0%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1292AE;
+    border-bottom: 2px solid #342299;
+    color: #fff;
+
+  }
